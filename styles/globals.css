@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-    .footer {
-        @apply space-y-4 text-xs text-gray-800
-    }
+  .footer {
+    @apply space-y-4 text-xs text-gray-800;
+  }
+  .button {
+    @apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-100 ease-out;
+  }
 }
